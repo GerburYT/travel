@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <title></title>
+<style>
+.header{
+background-color:#009344;
+text-align:center;
+color:white;
+font-size:32px;
+display:flex;
+}
+.main{
+float:inherit;
+background-image:url("rome.jpg");
+padding:500px;
+background-repeat:no-repeat;
+background-size:cover;
+text-align:center;
+opacity:0.5;
+color:white;
+font-size:50px;
+
+}
+.content{
+background-color:#085802;
+color:white;
+text-align:center;
+list-style:none;
+padding:50px;
+font-size:30px;
+}
+h2{
+text-shadow:5px 5px black;
+}
+
+#img1{
+	opacity: 0.5;
+}
+#img1:hover{
+	opacity: 1.0;
+}
+.content ol{
+list-style-type:none;
+background:#085802;
+padding:25px;
+}
+.content ol li{
+background:#88F497;
+padding:20px;
+color:#085802;
+}
+#img2{
+transition:width 2s, height 4s, transform 1s;
+}
+#img2:hover{
+transform:rotate(5deg);
+}
+#img3{
+transition:transform 1s;
+}
+#img3:hover{
+transform: scaleX(1.05) scaleY(1.05)
+}
+#img4{
+transition:transform 1s;
+}
+#img4:hover{
+transform:translate(10px, 10px)
+}
+nav ul{
+list-style:none;
+}
+nav li{
+display:inline-block;
+padding:10 20 20 20;
+border:3px ridge white;
+background-color:#cf2734;
+position:relative;
+
+}
+.header div{
+width:33.3333333333333%;
+text-shadow: 2px 2px black;
+}
+.header img{
+border:2px solid black;
+width:100px;
+margin:40px;
+box-shadow: 5px 5px black;
+}
+#img5{
+transition:transform 1s;
+}
+#img5:hover{
+transform:skewX(5deg);
+}
+#img6{
+transition:transform 1s;
+}
+#img6:hover{
+transform:skew(2deg, 2deg);
+}
+nav a{
+text-decoration:none;
+color:white
+}
+nav a:before{
+content:'';
+display:block;
+height:8px;
+background-color:white;
+width:0%;
+transition: all ease-in-out 250ms;
+
+top:-10;
+}
+nav a:hover:before{
+width:100%;
+}
+</style>
+    
+    
+    
+  </head>
+  <body>
+ <!--img src = "rome.jpg"--> 
+<div class="header">
+	<div style="text-align:left"> <img src ="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png"></div>
+	<div width=75%><h1>Visit Italy!</h1></div>
+	<div width=25% style="float:right">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div class="footer">Created by Vedant</div>
+
+  
+  
+  
+  
+  
+  
+  </body>
+</html>
